@@ -1,0 +1,280 @@
+
+/* ==== Sección de Motos ==== */
+
+.portada-motos img{
+  width: 100%;
+  height: 500px;
+  
+  object-fit: cover;
+  background-size:contain;
+}
+
+h1{
+  text-align: center;
+  margin: 20px;
+}
+
+p{
+  color: #ccc;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Estilo para las secciones de motos */
+section {
+  margin: 20px;
+  text-align: center;
+}
+
+
+/* Contenedor de las motos */
+.marca-seccion {
+  margin-bottom: 40px;
+}
+
+.marca-logo img {
+  width: 200px; /* Tamaño fijo para los logos */
+  height: 100px;
+  display: block;
+  margin: 10px auto;
+  
+}
+
+/* Contenedor de la galería de motos */
+.moto-catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Espacio entre las motos */
+  justify-content: space-between;
+}
+
+/* Estilo para cada moto */
+.moto-item {
+  background-color: white;
+  
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: calc(25% - 20px); /* Cada moto ocupa el 25% del ancho */
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+
+}
+
+.moto-item:hover {
+  transform: scale(1.05);
+}
+
+.moto-item img {
+  width: 100%; /* Las imágenes se adaptan al tamaño del contenedor */
+  height: 200px; /* Asegura que todas las imágenes tengan la misma altura */
+  object-fit: cover; /* Mantiene la relación de aspecto y cubre el área */
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.moto-item h3 {
+  font-size: 1.25rem;
+  margin: 10px 0;
+  color: #000;
+  
+}
+
+
+
+.moto-item p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.moto-item button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.moto-item button:hover {
+  background-color: #555;
+}
+
+/* Estilo para el modal */
+/* Modal general */
+.ficha-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  
+}
+
+/* Contenido del modal */
+.ficha-contenido {
+  background-color: #f4f4f4;
+  color: #000;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.ficha-contenido p{
+  color: #000;
+}
+
+/* Botón cerrar */
+#cerrar-modal {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 1.8rem;
+  color: #161414;
+  cursor: pointer;
+}
+
+#cerrar-modal:hover {
+  color: #000;
+}
+
+/* Lista técnica */
+.ficha-contenido ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+  text-align: left;
+}
+
+.ficha-contenido li {
+  margin-bottom: 10px;
+  color: #222;
+  font-size: 1rem;
+}
+
+/* Título */
+.ficha-contenido h2 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+/* Corrección de estilos indeseados */
+.ficha-contenido * {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  
+}
+
+/* Contenedor del botón de WhatsApp y el texto */
+.whatsapp-container {
+  display: flex;
+  align-items: center; /* Alinea el texto y el botón verticalmente */
+  justify-content: center;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+/* Estilo para el botón de WhatsApp */
+#whatsapp-btn {
+  display: flex;
+  align-items: center; /* Centra el icono y el texto verticalmente */
+  background-color: #25D366;
+  padding: 12px 15px;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+#whatsapp-btn:hover {
+  background-color: #128C7E;
+}
+
+#whatsapp-btn img {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px; /* Reducido el margen entre el icono y el texto */
+  vertical-align: middle;
+}
+
+/* El texto "Consultanos" se ajusta */
+.whatsapp-text {
+  margin-left: 0; /* Asegura que no haya margen adicional */
+  font-size: 1rem;
+  font-weight: normal;
+  color: #222020;
+  text-align: center;
+}
+
+/* Asegúrate de que el modal se vea bien en pantallas pequeñas */
+@media (max-width: 600px) {
+  .whatsapp-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #whatsapp-btn {
+    width: 100%;
+  }
+
+  .whatsapp-text {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+
+/* Modal más pequeño en pantallas extremadamente pequeñas (móviles apaisados o más pequeños) */
+@media (max-width: 480px) {
+  .ficha-contenido {
+    width: 70%; /* Se ajusta aún más */
+    padding: 10px;
+  }
+
+  .whatsapp-container {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #whatsapp-btn {
+    width: 90%;
+    padding: 12px 0;
+  }
+}
+
+/* Responsividad */
+@media (max-width: 1200px) {
+  .moto-item {
+      width: calc(33.33% - 20px); /* 3 motos por fila */
+  }
+}
+
+@media (max-width: 768px) {
+  .moto-item {
+      width: calc(50% - 20px); /* 2 motos por fila */
+  }
+}
+
+@media (max-width: 480px) {
+  .moto-item {
+      width: 100%; /* 1 moto por fila en pantallas muy pequeñas */
+  }
+}
+

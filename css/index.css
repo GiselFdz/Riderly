@@ -1,0 +1,310 @@
+
+/* Slider */
+.contenedor-slider {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    width: 400%;
+    margin-left: -100%;
+}
+
+.slider--section {
+    width: 100%;
+    position: relative;
+}
+
+.slider--img {
+    width: 100%;
+    height: 650px;
+    display: block;
+    object-fit: cover;
+}
+
+.slider--overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(15, 15, 15, 0.534);
+    z-index: 0;
+}
+
+.slider--texto {
+    position: absolute;
+    bottom: 60px;
+    left: 800px;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.418);
+    color: white;
+    padding: 20px 25px;
+    text-align: center;
+    border-radius: 8px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.slider--section.active .slider--texto {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.slider--btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 5px 15px;
+    z-index: 2;
+}
+
+.slider--btn--left { left: 10px; }
+.slider--btn--right { right: 10px; }
+
+/* Secciones con línea divisoria */
+section {
+    padding: 60px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+section:last-of-type {
+    border-bottom: none;
+}
+
+/* Bio Section */
+#bio {
+    padding: 100px 200px;
+}
+
+.bio {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.texto-y-boton {
+    width: 48%;
+}
+
+.texto-y-boton h2 {
+    font-size: 2rem;
+    color: #e63946;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.texto-bio p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.cta-container {
+    margin-top: 50px;
+}
+
+.cta {
+    background: #e63946;
+    color: #fff;
+    padding: 10px 25px;
+    margin-left: 300px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.cta:hover {
+    background: #c4303a;
+}
+
+.img-cont2 {
+    width: 48%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.img-cont2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Modelos Section */
+.modelos h2 {
+    color: #e63946;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.moto-card {
+    background: #1f1f1f;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.moto-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.moto-card p {
+    margin-top: 10px;
+    color: #eee;
+    text-align: center;
+}
+
+.moto-card:hover {
+    transform: scale(1.05);
+}
+
+/* Nosotros Section */
+.nosotros h2 {
+    color: #e63946;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.nosotros p {
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.mapa iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+/* Contacto Section */
+.contacto h2 {
+    color: #e63946;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background: #e63946;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #c4303a;
+}
+
+#respuesta {
+    margin-top: 15px;
+    color: #4caf50;
+    text-align: center;
+}
+
+/* Estilo responsive */
+@media (max-width: 768px) {
+
+    .slider--img {
+        height: 300px;
+    }
+
+    .slider--texto {
+        left: 20px;
+        right: 20px;
+        bottom: 30px;
+    }
+
+    
+    #bio {
+        padding: 50px 20px;
+    }
+
+    .bio {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .texto-y-boton, .img-cont2 {
+        width: 100%;
+    }
+
+    .cta-container {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .cta {
+        margin-left: 0;
+    }
+
+    .galeria {
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .moto-card {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .nosotros p {
+        padding: 0 10px;
+    }
+
+    .mapa iframe {
+        height: 200px;
+    }
+}

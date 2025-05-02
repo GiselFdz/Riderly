@@ -1,0 +1,221 @@
+h1, h2 {
+  text-align: center;
+  margin: 20px;
+}
+
+p{
+  color: #ccc;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.portada-accesorios img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.accesorios-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 40px;
+  background-color: #292828;
+}
+
+.accesorios-card {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease;
+}
+
+.accesorios-card:hover {
+  transform: translateY(-4px);
+}
+
+.accesorios-card img {
+  width: 70%;
+  height: 200px;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.accesorios-info {
+  padding: 16px;
+  text-align: center;
+}
+
+.tipo {
+  color: #777;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+.precio {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1e40af;
+  margin-bottom: 12px;
+}
+
+.acciones {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.btn-agregar, .btn-ver {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.btn-agregar {
+  background-color: #1e40af;
+  color: white;
+}
+
+.btn-ver {
+  background-color: transparent;
+  color: #1e40af;
+}
+
+.btn-ver:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para el modal */
+.modal {
+  display: none; /* Inicialmente oculto */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro para el modal */
+  justify-content: center;
+  align-items: center;
+  color: #292828;
+}
+
+.modal-contenido {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  width: 400px;
+}
+
+.cerrar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #d32f2f;
+}
+
+#lista-carrito {
+  list-style-type: none;
+  padding: 0;
+}
+
+#lista-carrito li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+#total-carrito {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #292828;
+}
+
+#vaciar-carrito {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#vaciar-carrito:hover {
+  background-color: #d32f2f;
+}
+
+.btn-whatsapp {
+  margin-top: 10px;
+  background-color: #25d366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-whatsapp:hover {
+  background-color: #128c7e;
+}
+
+.accesorios-card {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.accesorios-info {
+  text-align: center;
+}
+
+.precio {
+  color: #1e40af;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.btn-agregar {
+  background-color: #1e40af;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-agregar:hover {
+  background-color: #1a3698;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .accesorios-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .accesorios-grid {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+
+  .portada-accesorios img {
+    height: 250px;
+  }
+}
