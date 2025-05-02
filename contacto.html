@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="shortcut icon" href="./icons/casco-de-carreras.png" type="image/x-icon">
+</head>
+<body>
+    
+  <a
+      href="https://api.whatsapp.com/send?phone=5492995739150&text=Hola%20me comunico por consultas" 
+      class="btn-wsp"
+      aria-label="Enviar mensaje por WhatsApp"
+      target="_blank"
+    >
+      <span>📱</span> Contáctenos
+    </a>
+    <!-- Encabezado con título y navegación principal -->
+    <header>
+      <a href="#inicio" class="logo">
+        <img src="./images/logo-riderly2.png" alt="Riderly Motos" />
+      </a>
+    
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    
+      <nav>
+        <a href="./index.html">Inicio</a>
+        <a href="./motos.html">Motos</a>
+        <a href="./cascos.html">Cascos</a>
+        <a href="./accesorios.html">Accesorios</a>
+        <a href="./contacto.html">Contacto</a>
+      </nav>
+    </header>
+
+      <section class="contacto">
+        <div class="portada-contacto">
+          <img src="./images/portada-contacto.jpg" alt="" />
+        </div>
+      </section>
+
+
+      <!-- Sección de contacto con encabezado explicativo -->
+    <section class="contacto" id="contacto">
+      <h1>Contáctanos</h1>
+      <p>
+        ¿Tienes alguna consulta sobre nuestros modelos, precios o formas de financiación? 
+        No dudes en contactarnos. Estamos aquí para ayudarte a encontrar la moto que más se ajuste a tus necesidades.
+        También puedes preguntarnos por ofertas y promociones especiales. ¡Te esperamos!
+      </p>
+
+      <form id="contactForm" action="https://formsubmit.co/riderlymotos@gmail.com" method="POST">
+        <input type="text" name="nombre" id="nombre" placeholder="Tu Nombre" required />
+        <input type="email" name="email" id="email" placeholder="Tu Email" required />
+        <textarea name="mensaje" id="mensaje" placeholder="Escribí tu mensaje..." required></textarea>
+        <button type="submit">Enviar</button>
+        <p id="respuesta"></p>
+      </form>
+
+      <!-- Mapa con la ubicación de la tienda -->
+      <div class="mapa">
+        <h2>Visítanos en nuestra tienda:</h2>
+        <iframe
+          src="https://www.google.com/maps?q=Av.+Libertad+1234,+Cipolletti,+R%C3%ADo+Negro,+Argentina&output=embed"
+          width="100%"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+      
+
+      <!-- Pie de página -->
+    <footer>
+      <p>© 2025 Riderly Motos — Pasión sobre dos ruedas.</p>
+      <p>📍 Av. Libertad 1234, Cipolletti, Río Negro</p>
+      <p>📞 <a href="https://api.whatsapp.com/send?phone=5492995739150" target="_blank">+54 9 299 5739150</a></p>
+      <p>✉️ <a href="mailto:riderlymotos@gmail.com">riderlymotos@gmail.com</a></p>
+    
+      <div class="redes-sociales">
+        <a href="https://facebook.com/tuperfil" target="_blank" aria-label="Facebook">
+          <img src="./icons/facebook.svg" alt="Facebook" />
+        </a>
+        <a href="https://instagram.com/tuperfil" target="_blank" aria-label="Instagram">
+          <img src="./icons/instagram.svg" alt="Instagram" />
+        </a>
+        <a href="https://tiktok.com/@tuperfil" target="_blank" aria-label="TikTok">
+          <img src="./icons/tiktok.svg" alt="TikTok" />
+        </a>
+      </div>
+    </footer>
+      <script src="./js/menu.js"></script> 
+      <script src="./js/contacto.js"></script>
+</body>
+</html>

@@ -1,0 +1,425 @@
+{
+  "motos": [
+    {
+      "id": "moto1",
+      "marca": "Benelli",
+      "modelo": "Benelli 180s",
+      "imagen": "./images/benelli-180s.png",
+      "precio": "$1.998.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "180cc",
+        "potencia": "12.5 hp",
+        "transmision": "5 velocidades",
+        "peso": "139 kg",
+        "otros": "Suspensión delantera telescópica, suspensión trasera mono-shock"
+      }
+    },
+    {
+      "id": "moto2",
+      "marca": "Benelli",
+      "modelo": "Benelli 752s",
+      "imagen": "./images/benelli-752s.jpg",
+      "precio": "$1.748.000",
+      "ficha": {
+        "motor": "Bicilíndrico, 4 tiempos",
+        "cilindrada": "752cc",
+        "potencia": "76 hp",
+        "transmision": "6 velocidades",
+        "peso": "228 kg",
+        "otros": "Suspensión invertida, frenos de disco doble"
+      }
+    },
+    {
+      "id": "moto3",
+      "marca": "Benelli",
+      "modelo": "Benelli Leoncino 250",
+      "imagen": "./images/benelli-leoncino-250.png",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "250cc",
+        "potencia": "26 hp",
+        "transmision": "6 velocidades",
+        "peso": "180 kg",
+        "otros": "Estilo retro, suspensión trasera mono-shock"
+      }
+    },
+    {
+      "id": "moto4",
+      "marca": "Benelli",
+      "modelo": "Benelli Trk 251",
+      "imagen": "./images/benelli-trk-251.jpg",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "250cc",
+        "potencia": "25 hp",
+        "transmision": "6 velocidades",
+        "peso": "164 kg",
+        "otros": "Versión touring, suspensión delantera invertida"
+      }
+    },
+    {
+      "id": "moto5",
+      "marca": "Gilera",
+      "modelo": "Gilera AC4",
+      "imagen": "./images/gilera-ac-4.png",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "125cc",
+        "potencia": "10 hp",
+        "transmision": "5 velocidades",
+        "peso": "130 kg",
+        "otros": "Suspensión delantera telescópica"
+      }
+    },
+    {
+      "id": "moto6",
+      "marca": "Gilera",
+      "modelo": "Gilera AC1",
+      "imagen": "./images/gilera-ac1-150.jpg",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "150cc",
+        "potencia": "12 hp",
+        "transmision": "5 velocidades",
+        "peso": "135 kg",
+        "otros": "Neumáticos de off-road, suspensión trasera mono-shock"
+      }
+    },
+    {
+      "id": "moto7",
+      "marca": "Gilera",
+      "modelo": "Gilera Smash",
+      "imagen": "./images/gilera-smash.png",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "110cc",
+        "potencia": "8 hp",
+        "transmision": "4 velocidades",
+        "peso": "105 kg",
+        "otros": "Ideal para ciudad, económico en consumo"
+      }
+    },
+    {
+      "id": "moto8",
+      "marca": "Gilera",
+      "modelo": "Gilera VC 150",
+      "imagen": "./images/gilera-vc-150.webp",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "150cc",
+        "potencia": "13 hp",
+        "transmision": "5 velocidades",
+        "peso": "130 kg",
+        "otros": "Rendimiento alto, suspensión delantera invertida"
+      }
+    },
+    {
+      "id": "moto9",
+      "marca": "Honda",
+      "modelo": "Honda CBR 190",
+      "imagen": "./images/honda-cbr-190.jpg",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "190cc",
+        "potencia": "16 hp",
+        "transmision": "6 velocidades",
+        "peso": "140 kg",
+        "otros": "Estilo deportivo, frenos de disco doble"
+      }
+    },
+    {
+      "id": "moto10",
+      "marca": "Honda",
+      "modelo": "Honda XR 150",
+      "imagen": "./images/honda-xr-150.jpg",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "150cc",
+        "potencia": "13 hp",
+        "transmision": "5 velocidades",
+        "peso": "135 kg",
+        "otros": "Ideal para off-road, suspensión delantera telescópica"
+      }
+    },
+    {
+      "id": "moto11",
+      "marca": "Honda",
+      "modelo": "Honda Navi",
+      "imagen": "./images/honda-navi.jpg",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "110cc",
+        "potencia": "7 hp",
+        "transmision": "Automática",
+        "peso": "101 kg",
+        "otros": "Scooter compacta y económica"
+      }
+    },
+    {
+      "id": "moto12",
+      "marca": "Honda",
+      "modelo": "Honda Wave",
+      "imagen": "./images/honda-wave.webp",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "110cc",
+        "potencia": "9.4 hp",
+        "transmision": "Automática",
+        "peso": "97 kg",
+        "otros": "Scooter versátil y económica"
+      }
+    },
+    {
+      "id": "moto13",
+      "marca": "Motomel",
+      "modelo": "Motomel Blitz 110",
+      "imagen": "./images/motomel-blitz-110.jpeg",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "110cc",
+        "potencia": "7.5 hp",
+        "transmision": "Manual, 4 marchas",
+        "peso": "108 kg",
+        "otros": "Moto ideal para ciudad"
+      }
+    },
+    {
+      "id": "moto14",
+      "marca": "Motomel",
+      "modelo": "Motomel S2 150",
+      "imagen": "./images/motomel-s2-150.png",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "150cc",
+        "potencia": "11 hp",
+        "transmision": "Manual, 5 marchas",
+        "peso": "120 kg",
+        "otros": "Deportiva y resistente"
+      }
+    },
+    {
+      "id": "moto15",
+      "marca": "Motomel",
+      "modelo": "Motomel Sirius 190",
+      "imagen": "./images/motomel-sirius-190.jpeg",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "190cc",
+        "potencia": "14 hp",
+        "transmision": "Manual, 5 marchas",
+        "peso": "140 kg",
+        "otros": "Moto para aventura y camino mixto"
+      }
+    },
+    {
+      "id": "moto16",
+      "marca": "Motomel",
+      "modelo": "Motomel Victory 150",
+      "imagen": "./images/motomel-victory-150.png",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "150cc",
+        "potencia": "12 hp",
+        "transmision": "Manual, 5 marchas",
+        "peso": "130 kg",
+        "otros": "De uso urbano y para principiantes"
+      }
+    },
+    {
+      "id": "moto17",
+      "marca": "Bajaj",
+      "modelo": "Rouser Dominar 400",
+      "imagen": "./images/roser-dominar-400.jpg",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "373cc",
+        "potencia": "40 hp",
+        "transmision": "Manual, 6 marchas",
+        "peso": "182 kg",
+        "otros": "Moto deportiva para largos recorridos"
+      }
+    },
+    {
+      "id": "moto18",
+      "marca": "Bajaj",
+      "modelo": "Rouser NS 200",
+      "imagen": "./images/rouser-200.webp",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "199cc",
+        "potencia": "24 hp",
+        "transmision": "Manual, 6 marchas",
+        "peso": "160 kg",
+        "otros": "Moto deportiva y económica"
+      }
+    },
+    {
+      "id": "moto19",
+      "marca": "Bajaj",
+      "modelo": "Rouser NS 125",
+      "imagen": "./images/rouser-ns-125.jpg",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "124cc",
+        "potencia": "11 hp",
+        "transmision": "Manual, 5 marchas",
+        "peso": "135 kg",
+        "otros": "Ideal para iniciarse en motos deportivas"
+      }
+    },
+    {
+      "id": "moto20",
+      "marca": "Bajaj",
+      "modelo": "Rouser 180",
+      "imagen": "./images/bajaj-rouser-180.jpg",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "180cc",
+        "potencia": "17 hp",
+        "transmision": "Manual, 5 marchas",
+        "peso": "140 kg",
+        "otros": "Moto de excelente relación calidad-precio"
+      }
+    },
+    {
+      "id": "moto21",
+      "marca": "Yamaha",
+      "modelo": "Yamaha FZ 125",
+      "imagen": "./images/yamaha-fz125.jpg",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "124cc",
+        "potencia": "10 hp",
+        "transmision": "Manual, 5 marchas",
+        "peso": "137 kg",
+        "otros": "Moto de uso urbano y de bajo consumo"
+      }
+    },
+    {
+      "id": "moto22",
+      "marca": "Yamaha",
+      "modelo": "Yamaha MT",
+      "imagen": "./images/yamaha-mt.jpg",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "155cc",
+        "potencia": "19 hp",
+        "transmision": "Manual, 6 marchas",
+        "peso": "145 kg",
+        "otros": "De estilo naked, potente y económica"
+      }
+    },
+    {
+      "id": "moto23",
+      "marca": "Yamaha",
+      "modelo": "Yamaha FZ X",
+      "imagen": "./images/yamaha-fz-x.jpg",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "149cc",
+        "potencia": "12 hp",
+        "transmision": "Manual, 5 marchas",
+        "peso": "140 kg",
+        "otros": "Estilo versátil para ciudad"
+      }
+    },
+    {
+      "id": "moto24",
+      "marca": "Yamaha",
+      "modelo": "Yamaha YBR 125",
+      "imagen": "./images/yamaha-ybr125.jpg",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "124cc",
+        "potencia": "10 hp",
+        "transmision": "Manual, 5 marchas",
+        "peso": "120 kg",
+        "otros": "Moto económica y confiable"
+      }
+    },
+    {
+      "id": "moto25",
+      "marca": "Zanella",
+      "modelo": "Zanella Ceccato 150R",
+      "imagen": "./images/zanella-Ceccato-150R.png",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "150cc",
+        "potencia": "12 hp",
+        "transmision": "Manual, 5 marchas",
+        "peso": "140 kg",
+        "otros": "Deportiva, para uso urbano"
+      }
+    },
+    {
+      "id": "moto26",
+      "marca": "Zanella",
+      "modelo": "Zanella Patagonian 150",
+      "imagen": "./images/zanella-patagonianeagle150.png",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "150cc",
+        "potencia": "11 hp",
+        "transmision": "Manual, 5 marchas",
+        "peso": "145 kg",
+        "otros": "Ideal para viajes largos y caminos rurales"
+      }
+    },
+    {
+      "id": "moto27",
+      "marca": "Zanella",
+      "modelo": "Zanella RZ",
+      "imagen": "./images/zanella-rz.jpg",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "110cc",
+        "potencia": "7 hp",
+        "transmision": "Manual, 4 marchas",
+        "peso": "120 kg",
+        "otros": "Moto de uso urbano y económico"
+      }
+    },
+    {
+      "id": "moto28",
+      "marca": "Zanella",
+      "modelo": "Zanella ZB 110",
+      "imagen": "./images/zanella-ZB-110-.png",
+      "precio": "$2.200.000",
+      "ficha": {
+        "motor": "Monocilíndrico, 4 tiempos",
+        "cilindrada": "110cc",
+        "potencia": "6.5 hp",
+        "transmision": "Manual, 4 marchas",
+        "peso": "105 kg",
+        "otros": "Ideal para principiantes y uso diario"
+      }
+    }
+  ]
+  
+}
